@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  background-color: lavender;
+  color: navy;
+  overflow-x: hidden;
+}
+
+main,
+section {
+  padding: 0 2rem;
+}
+
+#color {
+  color: red;
+}
+
+#font {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#background {
+  background-color: yellow;
+}
+
+@keyframes fadeInSlideRight {
+  from {
+    opacity: 0;
+    transform: translateX(1000px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#animated {
+  animation: fadeInSlideRight 4s ease-out forwards;
+}
+
+figure img {
+  border-radius: 1rem;
+  border: 0.3rem solid purple;
+  width: 100%;
+}
+
+figure figcaption {
+  text-align: center;
+  font-size: smaller;
+}
